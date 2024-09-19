@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Page1 extends StatelessWidget {
-  const Page1({super.key});
+class Beranda extends StatelessWidget {
+  const Beranda({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -9,10 +9,9 @@ class Page1 extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            Navigator.pushNamed(context, '/Page2');
+            Navigator.pushNamed(context, '/page2');
           },
-          child: Text('Pindah ke halaman 2')
-        )
+          child: Text('Pindah ke halaman 2')),
       )
     );
   }

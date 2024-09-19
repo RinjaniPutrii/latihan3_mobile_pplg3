@@ -34,10 +34,10 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       routes: {
-      '/': (context) => Page1(),
+      '/': (context) => Beranda(),
       '/page2': (context) => Page2()
       },
-      initialRoute: '/',
+      initialRoute: '/'
     );
   }
 }
